@@ -4,12 +4,12 @@ Covalence
 ## Info
 * You have been given a starter project containing an index.html file and an async-math.js file
 * async-math.js contains a JavaScript library called SlowMath. It has already been imported into your index.html file and will be available in a global variable called `slowMath`.
-* SlowMath contains a series of functions that take two numbers as arguments, and return Promises that resolve with the answer or reject under certain conditions
-    * `slowMath.add(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of adding `val1` and `val2`. Rejects if `val1` or `val2` are negative numbers.
-    * `slowMath.subtract(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of subtracting `val1` and `val2`. Rejects if `val1` or `val2` are negative numbers.
-    * `slowMath.multiply(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of multiplying `val1` and `val2`. Rejects if `val1` or `val2` are negative numbers.
-    * `slowMath.divide(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative numbers, or if `val2` is zero.
-    * `slowMath.remainder(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the remainder after dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative numbers, or if `val2` is zero.
+* SlowMath contains a series of functions that take two resbers as arguments, and return Promises that resolve with the answer or reject under certain conditions
+    * `slowMath.add(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of adding `val1` and `val2`. Rejects if `val1` or `val2` are negative resbers.
+    * `slowMath.subtract(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of subtracting `val1` and `val2`. Rejects if `val1` or `val2` are negative resbers.
+    * `slowMath.multiply(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of multiplying `val1` and `val2`. Rejects if `val1` or `val2` are negative resbers.
+    * `slowMath.divide(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative resbers, or if `val2` is zero.
+    * `slowMath.remainder(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the remainder after dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative resbers, or if `val2` is zero.
 
 ## Objectives
 1. Create your own JavaScript file in which to write your code, and import it into your index.html file BELOW the import for `async-math.js`.
